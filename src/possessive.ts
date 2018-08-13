@@ -1,6 +1,6 @@
 export function possessive(noun: string, locale: string): string {
     // Translation rules based on: https://medium.com/@ssandler_35379/hi-aaron-1c7a2c11aa2d
-    switch (locale.substr(0, 2)) {
+    switch (locale.toLowerCase().substr(0, 2)) {
       case "en":
         return `${noun}’s`;
       case "es":
