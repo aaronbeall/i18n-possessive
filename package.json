@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "I18n translation of a noun to a possessive noun",
   "main": "./lib/possessive.js",
-  "types": "./lin/possessive.d.ts",
+  "types": "./lib/possessive.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^23.3.1",
