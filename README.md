@@ -16,7 +16,7 @@ Given a noun `{name}` language support and rules are as follows:
 ```ts
 import { possessive } from "i18n-possessive";
 
-possessive("John", "en"));     // John's
+possessive("John", "en"));     // John’s
 possessive("Sebastián", "es"); // de Sebastián
 possessive("Bella", "fr");     // de Bella
 possessive("Adalene", "fr");   // d’Adalene
